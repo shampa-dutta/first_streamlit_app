@@ -26,8 +26,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 # New Section to display fruityjuice api response
-
-### adding a FUNCTION to the after part above
 #create a repeatable code block function
 def get_fruityvice_data(this_fruit_choice):
   fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ this_fruit_choice)
@@ -43,7 +41,6 @@ try:
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
-
 ###End of function
 
 ##AFTER Move the Fruit Load List Query and Load into a Button Action
