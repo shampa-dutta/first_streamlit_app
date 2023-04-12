@@ -78,8 +78,8 @@ try:
 
 ###End of function
 
-#dont run anything past here while we throubleshoot
-streamlit.stop()
+# #dont run anything past here while we throubleshoot
+# streamlit.stop()
 
 #import snowflake.connector
 
