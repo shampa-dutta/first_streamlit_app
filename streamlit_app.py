@@ -42,11 +42,11 @@ try:
         streamlit.error("Please select a fruit to get information.")
   else:
     back_from_function = get_fruityvice_data(fruit_choice)
-    streamlit.dataframe(back_from_function);
+    streamlit.dataframe(back_from_function)
 
 ###End of function
 
-##AFTER -Move the Fruit Load List Query and Load into a Button Action
+##AFTER Move the Fruit Load List Query and Load into a Button Action
 streamlit.header("The fruit load list contains:")
 #Snowflake-related functions
 def fruit_load_list():
