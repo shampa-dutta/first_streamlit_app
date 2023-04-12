@@ -43,6 +43,8 @@ try:
     streamlit.dataframe(back_from_function)
 #End of function
 
+streamlit.stop()
+
 #AFTER Move the Fruit Load List Query and Load into a Button Action
 
 streamlit.header('The fruit load list contains:')
